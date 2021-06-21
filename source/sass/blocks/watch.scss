@@ -1,0 +1,43 @@
+.watch {
+  font-family: $font-roboto;
+  font-size: 25px;
+  font-weight: 900;
+  padding-top: 200px;
+  padding-bottom: 205px;
+
+  .watch__play {
+    width: 200px;
+    display: block;
+    color: $color-white;
+    text-decoration: none;
+
+    .watch__icon {
+      fill:none;
+      stroke:#FFFFFF;
+      stroke-width:3;
+      stroke-miterlimit:10;
+      margin-bottom: 30px;
+    }
+
+    .watch__text {
+      color: $color-white;
+    }
+  }
+}
+
+.watch__play:hover {
+  .watch__icon {
+    stroke: $color-ocean;
+  }
+
+  .watch__text {
+    color: $color-ocean;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .watch {
+    font-size: 16px;
+  }
+}
+

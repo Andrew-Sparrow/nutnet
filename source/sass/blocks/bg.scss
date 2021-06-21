@@ -1,0 +1,32 @@
+@import 'config';
+
+.bg--header,
+.bg--watch,
+.bg--team {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.bg--header {
+  background-image: url("../img/bg-forest.jpg");
+  color: $color-white;
+  padding-bottom: 205px;
+}
+
+.bg--watch {
+  background-image: url("../img/bg-city.jpg");
+}
+
+.bg--team {
+  background-image: url("../img/bg-forest-2.jpg");
+}
+
+.bg--quote {
+  background-image: url("../img/bg-forest-3.jpg");
+  background-size: cover;
+}
+
+.bg--footer {
+  background-image: url("../img/bg-comp.jpg");
+  background-size: cover;
+}

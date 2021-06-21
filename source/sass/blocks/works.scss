@@ -1,0 +1,27 @@
+.works__projects {
+  width: 315px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #413d4b;
+  font-family: $font-roboto;
+}
+
+.works__title {
+  align-self: center;
+}
+
+.works__text {
+  margin-bottom: 0;
+  align-self: center;
+}
+
+.works__icon {
+  align-self: center;
+}
+
+@media (min-width: $tablet-width) {
+  .works__projects {
+    width: 187px;
+    font-size: 14px;
+  }
+}
